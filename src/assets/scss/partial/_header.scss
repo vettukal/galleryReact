@@ -1,0 +1,59 @@
+.navbar {
+    background-color: $bg-color;
+    padding: 20px;
+
+    .logo {
+        width: 100px;
+        height: 60px;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h6 {
+            color: white;
+            font-size: 18px;
+            margin-left: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+    }
+
+    .navbar-toggler {
+        border-color: white;
+        background-color: white;
+    }
+
+    .nav-link {
+        color: white !important;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        &:hover {
+            color: aquamarine !important;
+            transform: scale(1.2);
+        }
+    }
+
+    .icons {
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+        transition: all 0.3s ease;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        &:hover {
+            color: aquamarine;
+            transform: scale(1.2);
+        }
+    }
+}

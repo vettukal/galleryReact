@@ -1,0 +1,65 @@
+/* =================================== */
+/* Start Footer Area Style */
+
+
+.footer-bottom {
+    padding: 50px 100px;
+    // margin: 0 100px;
+    border-top: 1px solid #EDEDED;
+    background: white;
+
+    @media only screen and (max-width: 675px) {
+        padding: 20px;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .copyright {
+        .logo {
+            width: 60px;
+            height: 30px;
+        }
+
+        margin-right: 100px;
+
+        @media only screen and (max-width: 675px) {
+            margin-right: 40px;
+        }
+
+        h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+    }
+
+    .bottom {
+        margin-right: 100px;
+
+        @media only screen and (max-width: 675px) {
+            margin-right: 20px;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 0;
+            padding: 5px 0;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+
+            @media only screen and (max-width: 675px) {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+/* End Footer Area Styles
+/* =================================== */

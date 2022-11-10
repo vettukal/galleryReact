@@ -23,7 +23,7 @@ export default function FolderComponent(props) {
             <h3>
             Get Folders
           </h3>
-            <button type="button" class="btn btn-primary" onClick={getFolders}>Primary</button>
+            <button type="button" className="btn btn-primary" onClick={getFolders}>Primary</button>
         </div>
     )
 }

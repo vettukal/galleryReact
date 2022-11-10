@@ -1,0 +1,11 @@
+//--------- Start Buttons Style -------------//
+.btns{
+    background-color: #a46d42;
+    color: white;
+    outline: 0;
+    border: none;
+    border-radius: 6px;
+    &:hover{
+        background-color: #654321;
+    }
+}
