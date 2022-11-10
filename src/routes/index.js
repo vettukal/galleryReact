@@ -12,6 +12,7 @@ const titles = {
     '/': 'Home',
     '/login': 'Login',
     '/upload': 'Image upload',
+    '/dashboard': 'Dashboard',
     '/folder': 'Image Folder',
     '/gallery': 'Image Gallery',
 };
