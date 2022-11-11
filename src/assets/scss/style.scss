@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+// Including bootstrap
+@import "bootstrap/bootstrap.scss";
+
+// Including variables and mixins
+@import "partial/variables";
+@import "partial/mixins";
+@import "partial/reset";
+@import "partial/predefined";
+@import "partial/header";
+@import "partial/sidebar";
+@import "partial/footer";
+@import "partial/override";
+
+
+
+
+// Component Scss
+@import "components/table";
+@import "components/tab";
+@import "components/breadcrumb";
+@import "components/pagination";
+@import "components/button";
+@import "components/input";
+
+
+// Public Scss
+@import "layout/public/home";
+@import "layout/public/login";
+@import "layout/public/upload";
+@import "layout/public/dashboard";
+

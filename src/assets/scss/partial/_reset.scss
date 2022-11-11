@@ -1,0 +1,114 @@
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.primary-btn {
+  background-color: $btn-color;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px !important;
+
+  &-sec {
+    padding: 10px !important;
+    height: 40px;
+  }
+
+  &:focus {
+    outline: none
+  }
+
+  &-text {
+    font-size: 12px !important;
+  }
+
+  p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    @media only screen and (max-width: 575px) {
+      font-size: 12px;
+      margin-right: 5px;
+    }
+
+    @media only screen and (max-width: 475px) {
+      font-size: 10px;
+      margin-right: 0px;
+      padding: 10px 10px !important;
+    }
+  }
+
+  .icon {
+    color: white;
+    font-size: 25px;
+  }
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+.secondary-btn {
+  background-color: transparent !important;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: $btn-color;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border: none;
+
+  p {
+    color: $btn-color;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    @media only screen and (max-width: 575px) {
+      font-size: 12px;
+      margin-right: 5px;
+    }
+
+    @media only screen and (max-width: 475px) {
+      font-size: 10px;
+      margin-right: 0px;
+      padding: 10px 10px !important;
+    }
+  }
+
+  &:focus {
+    outline: none
+  }
+
+  &:hover {
+    color: blue;
+  }
+}
+
+
+.card {
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+}
