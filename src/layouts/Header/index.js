@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
 
-    <Navbar className='w-100 px-5' collapseOnSelect expand="lg">
+    <Navbar className='w-100 px-5 py-0' collapseOnSelect expand="lg">
       <Navbar.Brand href="/">
         <img className='logo' src='/images/logo.webp' />
         <h6>Pic Filter</h6>

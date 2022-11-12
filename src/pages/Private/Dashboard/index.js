@@ -7,13 +7,13 @@ const Dashboard = () => {
 
     return (
         <>
-            <div className="container dashboard my-5 py-5">
+            <div className="container dashboard my-4">
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-8">
                         <h2 className='mb-4'>Welcome to PicFilter</h2>
                         <div className='box'>
                             <p>You are ready to start creating your first fine-tune. Upload 20 <br></br>photos</p>
-                            <div className='row align-items-center justify-content-end mt-5'>
+                            <div className='row align-items-center justify-content-end mt-3'>
                                 <button className='mr-1 mr-md-5 secondary-btn'>
                                     <p>See some examples</p>
                                 </button>
@@ -23,7 +23,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-12 mt-5 pt-5">
+                    <div className="col-lg-12 mt-5">
                         <div className="video-responsive2">
                             <iframe
                                 width="853"

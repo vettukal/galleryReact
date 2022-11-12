@@ -16,6 +16,7 @@
     "react-icons": "^3.11.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.6",
     "reactstrap": "^9.1.4",
     "web-vitals": "^3.0.1"
   },

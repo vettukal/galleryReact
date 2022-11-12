@@ -13,7 +13,7 @@ const Home = () => {
             <section className='home-main'>
                 <h2 className='title text-center'>Talor-made Image filters</h2>
                 <h2 className='sub-title text-center'>Start creating your unique images</h2>
-                <div className='d-flex mx-auto my-5 py-3'>
+                <div className='d-flex mx-auto py-3'>
                     <button className='mr-1 mr-md-5 secondary-btn'>
                         Examples
                     </button>

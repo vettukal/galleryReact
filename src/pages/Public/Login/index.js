@@ -22,7 +22,7 @@ const Login = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="form-group">
-                                        <input onClick={() => navigate('/dashboard')} type="submit" name="login-submit" id="login-submit" tabindex="4" className="form-control btn btn-login" value="Log In with google"></input>
+                                        <input onClick={() => navigate('/dashboard')} type="submit" name="login-submit" id="login-submit" tabIndex="4" className="form-control btn btn-login" value="Log In with google"></input>
                                     </div>
                                 </div>
                             </div>
